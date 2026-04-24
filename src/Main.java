@@ -46,7 +46,7 @@ public class Main {
                     break;
 
                 case 4:
-                    gestion.sauvegarderResultats("data/resultats.csv");
+                    gestion.sauvegarderResultats("GestionNotesEtudiants-main/data/resultats.csv");
                     break;
 
                 case 5:
