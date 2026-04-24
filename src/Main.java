@@ -33,7 +33,7 @@ public class Main {
             // Exécute l'action correspondant au choix de l'utilisateur.
             switch (choix) {
                 case 1:
-                    gestion.chargerEtudiants("data/notes.csv");
+                    gestion.chargerEtudiants("GestionNotesEtudiants-main/data/notes.csv");
                     System.out.println("Nombre d'étudiants chargés : " + gestion.getNombreEtudiants());
                     break;
 
